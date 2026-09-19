@@ -5,14 +5,25 @@
     <title>Pesquisa TCC II - Arquivo Digital</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; color: #333; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1, h2 { color: #2c3e50; }
+        .grafo-img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; margin-top: 15px; }
+        .btn { display: inline-block; background: #2c3e50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 15px; }
+        .btn:hover { background: #34495e; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Pesquisa TCC II: Arquivo Digital</h1>
         <p>Repositório da ontologia e estruturação conceitual da pesquisa.</p>
+        
+        <h2>Visualização do Grafo da Ontologia</h2>
+        <p>O grafo abaixo ilustra as classes principais conectadas ao <code>owl:Thing</code>, englobando elementos como <code>PESQUISA</code>, <code>PROJETO_TCC_I</code> e <code>DOSSIÊ_DE_PESQUISA_E_AVALIAÇÃO</code>:</p>
+        <img src="x_2.png" alt="Grafo da Ontologia - TCC II" class="grafo-img">
+
+        <h2>Ficheiro da Ontologia</h2>
+        <p>Pode aceder ou descarregar o código fonte da ontologia em formato RDF/XML para reutilização:</p>
+        <a href="PESQUISA_TCC_II_ARQUIVO_DIGITAL.rdf" class="btn" download>Descarregar Ficheiro .RDF</a>
     </div>
 </body>
 </html>
